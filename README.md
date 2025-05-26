@@ -1,16 +1,64 @@
-# myapp
+Weather App на Flutter
+Простое, но мощное приложение для просмотра погоды с интуитивным интерфейсом и полезными функциями.
 
-A new Flutter project.
+🌦️ Основные функции
+Текущая погода с детализацией по часам
 
-## Getting Started
+Прогноз на 5 дней с графиками изменений
 
-This project is a starting point for a Flutter application.
+Интерактивная карта погоды с слоями:
 
-A few resources to get you started if this is your first Flutter project:
+Температура
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Осадки
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Давление
+
+Ветер
+
+Поиск по городам
+
+Сохранение избранных локаций
+
+Уведомления о резких изменениях погоды
+
+Темная/светлая тема
+
+🛠 Технологии
+Flutter - кроссплатформенная разработка
+
+OpenWeatherMap API - данные о погоде
+
+Riverpod - управление состоянием
+
+Hive - локальное хранилище
+
+Google Maps API - картографическая основа
+
+📸 Скриншоты
+[Здесь будут скриншоты интерфейса]
+
+🚀 Установка
+Клонируйте репозиторий:
+
+bash
+git clone https://github.com/ваш-username/weather-app-flutter.git
+Установите зависимости:
+
+bash
+flutter pub get
+Добавьте API ключи в lib/core/config/api_keys.dart:
+
+dart
+const openWeatherMapApiKey = 'ваш_ключ';
+const googleMapsApiKey = 'ваш_ключ';
+Запустите приложение:
+
+bash
+flutter run
+📝 Лицензия
+Этот проект распространяется под лицензией BMSTU.
+
+
+
+Приложение разработано с ❤️ для любителей точных прогнозов
